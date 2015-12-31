@@ -1,4 +1,4 @@
-BaseUrl= "https://crhino.cfapps.io/"
+BaseUrl= "http://www.chrispiraino.com/"
 LanguageCode= "en-US"
 Title= "The Event Horizon"
 paginate = 5
@@ -7,11 +7,11 @@ Copyright = "All rights reserved - 2015"
 canonifyurls = true
 
 [params]
-  description = "Random musings"
+  description = "Chris Piraino's random musings"
   cover = "images/cover.jpg"
   author = "Chris Piraino"
   authorlocation = "San Francisco, CA"
-  authorwebsite = "https://chrispiraino.com/"
+  authorwebsite = "http://www.chrispiraino.com/"
 #  bio= ""
 #  logo = ""
 #  googleAnalyticsUserID = ""
