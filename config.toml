@@ -1,0 +1,23 @@
+BaseUrl= "https://chrispiraino.com/"
+LanguageCode= "en-US"
+Title= "Chris Piraino"
+paginate = 5
+#DisqusShortname = ""
+Copyright = "All rights reserved - 2015"
+canonifyurls = true
+
+[params]
+  description = "Random musings"
+  cover = "images/cover.jpg"
+  author = "Chris Piraino"
+  authorlocation = "San Francisco, CA"
+  authorwebsite = "https://chrispiraino.com/"
+#  bio= ""
+#  logo = ""
+#  googleAnalyticsUserID = ""
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  #RSSLink = ""
+  githubName = "crhino"
+  #twitterName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
