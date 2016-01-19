@@ -16,9 +16,9 @@ When building distributed systems and the different components that make up thes
 
 ### Marid
 
-Thus, in the spirit of ifrit, I have written Marid, a Rust library for managing multiple threads/tasks and exposing an easy-to-use signaling behaviour for shutdown or other purposes. The MVP for this library includes the `Runner` and `Process` traits, the `Composer` and `MaridProcess` structs, and the `FnRunner` type. The current version allows anyone to define multiple `Runner` trait objects and run them concurrently using the `Composer` and `MaridProcess` structs.
+Thus, in the spirit of ifrit, I have written Marid, a Rust library for managing multiple threads/tasks and exposing an easy-to-use signaling behaviour for shutdown or other purposes. The MVP for this library allows anyone to define multiple `Runner` trait objects and run them concurrently using the `Composer` and `MaridProcess` structs. Future iterations will potentially bring features like restartable Runners or better out of the box support for common jobs.
 
-This might look something like:
+Using marid might look something like:
 
 ```rust
 let server = Box::new(HTTPServer::new()) as Box<Runner + Send>;
